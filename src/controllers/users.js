@@ -1,22 +1,27 @@
 import User from "../models/user"
+import bcrypt from "bcrypt"
 
 const getAllUsers = async (rea, res) => {
-  const mUsers = await User.find({}).exec()
-  res.json({ mUsers })
+  const users = await User.find({}).exec()
+  res.json({ users })
 }
 
 const createUser = async (req, res) => {
   const data = req.body
   const user = {
     username: data.username,
-    password: data.password,
     email: data.email,
     role: data.role,
     firstName: data.firstName,
     lastName: data.lastName,
   }
-  const newUser = await User.create(user)
-  res.json({ message: "User successfuly created", user: newUser })
+  bcrypt.hash(data.password, 10, async function (err, hash) {
+    if (err) {
+      return res.status(400).json({ message: "please cheak your data" })
+    }
+    const newUser = await User.create({ ...user, password: hash })
+    res.json({ message: "User successfuly created", user: newUser })
+  })
 }
 
 const deleteUser = async (req, res) => {
