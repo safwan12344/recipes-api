@@ -2,6 +2,7 @@ import express from "express"
 import bodyParser from "body-parser"
 import mongoose from "mongoose"
 import dotenv from "dotenv"
+import cors from "cors"
 
 dotenv.config()
 
@@ -15,6 +16,9 @@ import authRoutes from "./routes/auth"
 
 const app = express()
 const port = process.env.PORT
+
+// enable cors
+app.use(cors())
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
