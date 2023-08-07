@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken"
 import User from "../models/user"
 
-const authenticate = function (req, res, next) {
+export const authenticate = function (req, res, next) {
   const authHeader = req.headers["authorization"]
   const token = authHeader && authHeader.split(" ")[1]
 
@@ -19,8 +19,4 @@ const authenticate = function (req, res, next) {
 
     next()
   })
-}
-
-export default {
-  authenticate,
 }

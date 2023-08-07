@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
 import User from "../models/user"
-import auth from "../middlerwares/auth"
+import { authenticate } from "../middlerwares/auth"
 
 const login = async function (req, res) {
   const data = req.body
@@ -26,7 +26,7 @@ const login = async function (req, res) {
 }
 
 const me = [
-  auth.authenticate,
+  authenticate,
   function (req, res) {
     res.json({ user: req.user })
   },
