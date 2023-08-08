@@ -1,11 +1,12 @@
 import Category from "../models/category"
 import { deleteFile, uploadFile } from "../utils/aws"
 import Recipe from "../models/recipe"
+import { v4 as uuidv4 } from "uuid"
 
 const createCategory = async (req, res) => {
   const data = req.body
-
-  const key = `admin/categories/${data.name}/${req.files.file.name}`
+  const uid = uuidv4()
+  const key = `admin/categories/${data.name}/${uid}-${req.files.file.name}`
 
   try {
     const cat = await Category.findOne({ name: data.name })
@@ -44,7 +45,9 @@ const updateCategory = async (req, res) => {
       })
     }
 
-    const key = `admin/categories/${category.name}/${req.files.file.name}`
+    const uid = uuidv4()
+
+    const key = `admin/categories/${category.name}/${uid}-${req.files.file.name}`
 
     const imageURL = await uploadFile(req, "file", key)
 
@@ -56,6 +59,7 @@ const updateCategory = async (req, res) => {
 
     res.json(updatedCategory)
   } catch (error) {
+    console.log(error)
     return res.status(500).json({
       message: `failed to update category: please try again later`,
     })
