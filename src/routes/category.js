@@ -6,7 +6,7 @@ const router = express.Router()
 
 router.post("/", authenticate, categoryController.createCategory)
 router.patch("/:id", authenticate, categoryController.updateCategory)
-router.get("/", authenticate, categoryController.getAllCategories)
+router.get("/", categoryController.getAllCategories)
 
 router.get("/:id/recipes", categoryController.getAllRecipesByCategory)
 

@@ -31,7 +31,10 @@ router.post("/", authenticate, async (req, res) => {
     const imageURL = await uploadFile(req, "file", key)
     newrecipe.imageURL = imageURL
     const savedRecipe = await newrecipe.save()
-    return res.json({ message: "create recipe successfuly", recipe: savedRecipe })
+    return res.json({
+      message: "create recipe successfuly",
+      recipe: savedRecipe,
+    })
   } catch (err) {
     console.log(err)
     res
