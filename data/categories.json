@@ -1,0 +1,98 @@
+[
+  {
+    "_id": {
+      "$oid": "64ff0023ca2539f8d7727a33"
+    },
+    "name": "Bread and Pastries",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Bread and Pastries/e85b74f0-53f5-4b6d-807b-8718329a48a2-category-bread.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff0090ca2539f8d7727a39"
+    },
+    "name": "Meat",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Meat/6333ff6b-3a02-4b34-91d3-cff67817c800-cat-meat.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff00e5ca2539f8d7727a3f"
+    },
+    "name": "Pasta",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Pasta/8f7f6684-7baa-490f-afc9-734567cec166-pasta.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff016fca2539f8d7727a45"
+    },
+    "name": "Dessert",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Dessert/51f06655-a23c-44a6-8ab7-4aef944e7e3c-dessert.jpeg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff018cca2539f8d7727a49"
+    },
+    "name": "Breakfast",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Breakfast/91cd6772-b800-4eab-afe3-735d2aebda1b-Breakfast.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff01aaca2539f8d7727a4d"
+    },
+    "name": "Sushi",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Sushi/2ff0f023-0c42-4b49-926e-261a0cd2bd9d-sushi.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff01daca2539f8d7727a51"
+    },
+    "name": "Druze food",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Druze food/e3df6db1-f7f1-4fb5-9ed9-72a5f5a02919-Druze food.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff01f9ca2539f8d7727a55"
+    },
+    "name": "Italian food",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Italian food/df6bbe53-c503-44aa-a6da-8fa6a2281869-Italian food.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff0289ca2539f8d7727a59"
+    },
+    "name": "Drinks",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Drinks/7ba48a23-4c66-4079-8972-f690117fc810-fruit-drinks.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64ff09f95a9e76a05d11ca9a"
+    },
+    "name": "Fish",
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Fish/a4fb51ab-39b5-47c3-b2b4-ff6cb16128bc-category-fish.jpg",
+    "__v": 0
+  },
+  {
+    "name": "Rice and Stuffed",
+    "imageURL": "https://d3o5sihylz93ps.cloudfront.net/wp-content/uploads/2020/11/23125226/SAU_9573-1100x733.jpg"
+  },
+  {
+    "name": "Vegan",
+    "imageURL": "https://img.mako.co.il/2020/07/23/vegan_i.jpg"
+  },
+  {
+    "name": "Vegetarian",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Soy-whey-protein-diet.jpg"
+  },
+  {
+    "name": "Vegetables and Salads",
+    "imageURL": "https://thekitchengirl.com/wp-content/uploads/vegetable-quinoa-salad-recipe-A_10-copy.jpg"
+  }
+]

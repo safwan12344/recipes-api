@@ -1,5 +1,5 @@
-import mongoose from "mongoose"
 import validator from "validator"
+import mongoose from "../utils/mongoose"
 
 const Schema = mongoose.Schema
 
@@ -15,7 +15,7 @@ const UserSchema = new Schema({
     validate: [validator.isEmail, "invalid email"],
   },
   password: { type: String, required: true },
-  username: { type: String, unique: true, required: true },
+  username: { type: String, lowercase: true, unique: true, required: true },
   role: {
     type: String,
     enum: ["user", "business"],

@@ -1,14 +1,19 @@
 import jwt from "jsonwebtoken"
 import User from "../models/user"
+import { createError } from "../utils/create-error"
 
 export const authenticate = function (req, res, next) {
   const authHeader = req.headers["authorization"]
   const token = authHeader && authHeader.split(" ")[1]
 
-  if (!token) return res.status(401).json({ message: "no token" })
+  if (!token) {
+    return next(createError(401, "no token"))
+  }
 
   jwt.verify(token, process.env.TOKEN_SECRET, async (err, userToken) => {
-    if (err) return res.status(403).json({ message: "invalid token" })
+    if (err) {
+      return next(createError(403, "invalid token"))
+    }
 
     const user = await User.findOne({
       _id: userToken._id,

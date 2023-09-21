@@ -2,8 +2,9 @@ import Category from "../models/category"
 import { deleteFile, uploadFile } from "../utils/aws"
 import Recipe from "../models/recipe"
 import { v4 as uuidv4 } from "uuid"
+import { createError } from "../utils/create-error"
 
-const createCategory = async (req, res) => {
+const createCategory = async (req, res, next) => {
   const data = req.body
   const uid = uuidv4()
   const key = `admin/categories/${data.name}/${uid}-${req.files.file.name}`
@@ -11,9 +12,12 @@ const createCategory = async (req, res) => {
   try {
     const cat = await Category.findOne({ name: data.name })
     if (cat) {
-      return res.status(400).json({
-        message: `cannot create category becuase category ${data.name} exist`,
-      })
+      return next(
+        createError(
+          400,
+          `cannot create category becuase category ${data.name} exist`
+        )
+      )
     }
     const imageURL = await uploadFile(req, "file", key)
 
@@ -25,24 +29,28 @@ const createCategory = async (req, res) => {
     res.json(category)
   } catch (err) {
     if (err.code === 11000) {
-      return res.status(400).json({
-        message: `failed to create category: category ${data.name} exist`,
-      })
+      return next(
+        createError(
+          400,
+          `failed to create category: category ${data.name} exist`
+        )
+      )
     }
-    return res.status(500).json({
-      message: `failed to create category: please try again later`,
-    })
+    next(createError(500, `failed to create category: please try again later`))
   }
 }
 
-const updateCategory = async (req, res) => {
+const updateCategory = async (req, res, next) => {
   const categoryId = req.params.id
   try {
     const category = await Category.findOne({ _id: categoryId })
     if (!category) {
-      return res.status(400).json({
-        message: `can't update category ${categoryId} because is not exists`,
-      })
+      return next(
+        createError(
+          400,
+          `can't update category ${categoryId} because is not exists`
+        )
+      )
     }
 
     const uid = uuidv4()
@@ -59,25 +67,22 @@ const updateCategory = async (req, res) => {
 
     res.json(updatedCategory)
   } catch (error) {
-    console.log(error)
-    return res.status(500).json({
-      message: `failed to update category: please try again later`,
-    })
+    next(createError(500, `failed to update category: please try again later`))
   }
 }
 
-const getAllCategories = async (req, res) => {
+const getAllCategories = async (req, res, next) => {
   try {
     const allCategory = await Category.find({})
     res.json(allCategory)
   } catch (err) {
-    return res.status(500).json({
-      message: `failed to get all categories: please try again later`,
-    })
+    next(
+      createError(500, `failed to get all categories: please try again later`)
+    )
   }
 }
 
-const getAllRecipesByCategory = async (req, res) => {
+const getAllRecipesByCategory = async (req, res, next) => {
   let categoryName
   try {
     const categoryId = req.params.id
@@ -85,13 +90,12 @@ const getAllRecipesByCategory = async (req, res) => {
     categoryName = category.name
     const recipes = await Recipe.find({ category })
       .populate("category", "name")
+      .populate("ingredients")
+      .populate("comments")
       .select("-user")
     res.json(recipes)
   } catch (err) {
-    console.log(err)
-    return res
-      .status(500)
-      .json({ message: `could not get recipes for category ${categoryName}` })
+    next(createError(500, `could not get recipes for category ${categoryName}`))
   }
 }
 
