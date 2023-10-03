@@ -3,7 +3,12 @@ const { default: mongoose } = require("mongoose")
 import dotenv from "dotenv"
 import Category from "../src/models/category"
 const users = require("./users.json")
+import recipes from "./recipes.json"
 import categories from "./categories.json"
+import Recipe from "../src/models/recipe"
+import Comment from "../src/models/comment"
+import Ingredient from "../src/models/ingredient"
+import Book from "../src/models/book"
 const bcrypt = require("bcrypt")
 
 dotenv.config()
@@ -18,9 +23,30 @@ const generateUserPassword = async (password, genSalt = 10) => {
   return hashPassword
 }
 
+const createReplies = async (comment, recipeId) => {
+  if (comment.replies.length === 0) {
+    return []
+  }
+  const repliesPromise = comment.replies.map(async (reply) => {
+    const replyReplies = await createReplies(reply, recipeId)
+    return await Comment.create({
+      comment: reply.comment,
+      username: reply.username,
+      recipe: recipeId,
+      replies: replyReplies,
+    })
+  })
+  const replies = await Promise.all(repliesPromise)
+  return replies.map((r) => r._id)
+}
+
 const main = async () => {
   await Category.deleteMany()
   await User.deleteMany()
+  await Comment.deleteMany()
+  await Ingredient.deleteMany()
+  await Recipe.deleteMany()
+  await Book.deleteMany()
 
   const promises = users.map(async (item) => {
     const user = {
@@ -43,6 +69,50 @@ const main = async () => {
     })
   })
   await Promise.all(promisesCategory)
+
+  const recipiesPromise = recipes.map(async (recipe) => {
+    const user = await User.findOne({ username: recipe.user.username })
+    const category = await Category.findOne({ name: recipe.category.name })
+    const ingredentsPromise = recipe.ingredients.map(async (i) => {
+      return await Ingredient.create({
+        amount: i.amount,
+        name: i.name,
+        unit: i.unit,
+      })
+    })
+    const ingredents = await Promise.all(ingredentsPromise)
+    const ingredentsIds = ingredents.map((i) => i._id)
+    const newRecipe = Recipe({
+      name: recipe.name,
+      user: user._id,
+      category: category._id,
+      description: recipe.description,
+      time: recipe.time,
+      preparation: recipe.preparation,
+      rating: recipe.rating,
+      sumRating: recipe.sumRating,
+      numberOfVotes: recipe.numberOfVotes,
+      orderLink: recipe.orderLink,
+      imageURL: recipe.imageURL,
+      ingredients: ingredentsIds,
+    })
+    const commentsPromise = recipe.comments.map(async (comment) => {
+      const replies = await createReplies(comment, newRecipe._id)
+
+      return Comment.create({
+        comment: comment.comment,
+        recipe: newRecipe._id,
+        username: comment.username,
+        replies: replies,
+      })
+    })
+    const comments = await Promise.all(commentsPromise)
+    const commentsIds = comments.map((c) => c._id)
+    newRecipe.comments = commentsIds
+    return await newRecipe.save()
+  })
+
+  await Promise.all(recipiesPromise)
 }
 
 main().then(() => {

@@ -30,7 +30,12 @@ export const uploadFile = async (req, fieldName, key) => {
 
   const s3Client = getAWSClient()
 
-  await s3Client.send(new PutObjectCommand(bucketParams))
+  await s3Client.send(
+    new PutObjectCommand({
+      ...bucketParams,
+      ContentType: file.mimetype,
+    })
+  )
   const imageURL = `${IMAGE_URL_AWS}/${bucketParams.Key}`
   return imageURL
 }

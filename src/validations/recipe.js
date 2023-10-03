@@ -14,33 +14,33 @@ const recipeSchema = yup.object({
   time: yup.number().required(),
   preparation: yup.string().required(),
   orderLink: yup.string().required(),
-  files: yup
+  file: yup
     .mixed()
     .test({
       message: "filed file is missing",
-      test: (files) => {
-        return !!files.file
+      test: (file) => {
+        return !!file
       },
     })
     .test({
       message: "image URL should be of type image",
-      test: (files) => {
-        if (!files.file) {
+      test: (file) => {
+        if (!file) {
           return false
         }
-        const ext = files.file.name.split(".")[1]
+        const ext = file.name.split(".")[1]
         const isValid = ["png", "jpg", "jpeg"].includes(ext)
         return isValid
       },
     })
     .test({
       message: `File too big, can't exceed 1MB`,
-      test: (files) => {
-        if (!files.file) {
+      test: (file) => {
+        if (!file) {
           return false
         }
         const sizeLimit = 1
-        const totalSizeInMB = files.file.size / 1000000
+        const totalSizeInMB = file.size / 1000000
         const isValid = totalSizeInMB <= sizeLimit
         return isValid
       },

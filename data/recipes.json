@@ -1,0 +1,1498 @@
+[
+  {
+    "_id": "6519351670937c572c1223b5",
+    "category": {
+      "_id": "6519351670937c572c12232c",
+      "name": "Meat",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Meat/6333ff6b-3a02-4b34-91d3-cff67817c800-cat-meat.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Beef Rib Rub",
+    "description": "This rub is designed to put real barbecue flavor into beef ribs. The salt balances the sweet, and the layers of heat make for a delicious flavor that is deep and bright, with a little kick. If you want the perfect barbecue beef ribs, this rub is the place to start.",
+    "time": 140,
+    "preparation": [
+      "Mix brown sugar, paprika, chili powder, salt, and garlic powder in a medium bowl.",
+      "Cut ribs into equal portions. Generously rub spice mixture onto all surfaces of ribs; place ribs in a single layer in a glass baking dish. Cover and refrigerator for 30 minutes to 1 hour.",
+      "Preheat grill to medium indirect heat, 375 to 400 degrees F (190 to 200 degrees C).",
+      "Center one portion ribs on a 12x18-inch sheet of heavy-duty aluminum foil; add 2 ice cubes. Bring up the foil sides, then double-fold the top and ends to seal the packet, leaving room for heat circulation inside. Repeat to make 3 more packets.",
+      "Arrange packets over indirect heat on the preheated grill. Cover and cook until tender, 1 1/2 to 2 hours.",
+      "Uncover the grill. Keeping the foil packets on the grill, open them carefully by cutting along the top folds with a sharp knife, allowing steam to escape; then proceed to open packets fully.",
+      "Brush ribs with about 1/2 cup barbecue sauce.",
+      "Move packets over direct heat, cover, and continue grilling, turning once, until ribs are browned and crisp, about 5 minutes more.",
+      "Serve with additional barbecue sauce as desired."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/65154b65fd5aa9ad267d1716/Texas-Beef-Rib-Rub.jpg",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c12235b",
+        "name": "coarse salt",
+        "unit": "cup",
+        "amount": 1.4,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12235c",
+        "name": "dark brown sugar",
+        "unit": "cup",
+        "amount": 1.4,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12235d",
+        "name": "paprika not smoked",
+        "unit": "tbsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12235e",
+        "name": "chili powder mild or medium",
+        "unit": "tbsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12235f",
+        "name": "ground black pepper",
+        "unit": "tbsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122360",
+        "name": "cayenne",
+        "unit": "tbsp",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122361",
+        "name": "garlic powder",
+        "unit": "tbsp",
+        "amount": 1,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.derrickriches.com/beef-rib-rub/",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c1223b7",
+    "category": {
+      "_id": "6519351670937c572c122330",
+      "name": "Sushi",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Sushi/2ff0f023-0c42-4b49-926e-261a0cd2bd9d-sushi.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Sushi rice",
+    "description": "Learn how to make perfect sushi rice with this simple step-by-step recipe. Make a batch and craft your own sushi selection platter for entertaining",
+    "time": 15,
+    "preparation": [
+      "To make the rice, first wash it thoroughly in a sieve for 4 mins, gently turning it over by hand until the water runs clear. Drain the rice and put it in a pan with 540ml water.",
+      "Leave it to stand for a minimum of 30 mins. It can be left overnight, but for best results, leave it for 30 mins-1 hr. Leave the soaking water in the pan with the rice and bring to the boil, put the lid on, reduce the heat and simmer for 8 -9 mins. Turn the heat off and let it stand with the lid on for a further 5 mins. Do not lift the lid.",
+      "While the rice is cooking, to make the sushi-su, put the rice vinegar, sugar and 1 tbsp salt into a pan and leave on a low heat until the sugar and salt have dissolved. Be careful not to let it boil or the flavour will spoil. Remove from the heat and leave to cool.",
+      "Put the rice into a wide flat dish such as a sushi oke, a baking dish or a roasting tray. Pour the sushi-su over the rice and fold it carefully into the rice with a wooden spoon as it cools down, being careful not to damage the grains. You can use a fan or a hairdryer on the coolest setting to speed up the cooling process, directing it at the rice. The sushi-su gives the rice more flavour and that familiar sticky glazed look.",
+      "If you don’t want to use the rice immediately, cover it with a damp cloth so that it doesn’t dry out. Leave in a cool place, but do not refrigerate. The fridge will make the rice hard and dry, and the sushi-su helps to preserve the rice without refrigeration. Will keep for a day."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/651679ddd7350f62260ebec4/Sushi rice.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c122369",
+        "name": "rice vinegar or brown rice vinegar",
+        "unit": "ml",
+        "amount": 120,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12236a",
+        "name": "sugar seasoning, to taste (optional)",
+        "unit": "tbsp",
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12236b",
+        "name": "Japanese rice (Japanese cups)",
+        "unit": "cups",
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12236c",
+        "name": "Japanese rice",
+        "unit": "gram",
+        "amount": 450,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/sushi-rice",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c1223d9",
+    "category": {
+      "_id": "6519351670937c572c12232b",
+      "name": "Bread and Pastries",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Bread and Pastries/e85b74f0-53f5-4b6d-807b-8718329a48a2-category-bread.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Halloumi & chipotle loaf",
+    "description": "Enjoy a loaf filled with delicious textures and kicking flavours, with creamy halloumi and the heat of smoky, sweet chipotle. Enjoy with lashings of butter",
+    "time": 35,
+    "preparation": [
+      "Weigh the flour out into a large bowl. Rub in the softened butter using your fingers until the mixture resembles fine crumbs. Add the yeast and sugar to one side of the bowl, and the salt on the other. Using a spatula, mix everything together to combine.",
+      "Make a well in the centre and pour in 300ml warm water. Using the spatula, mix until you have a rough dough. Tip the dough out onto the work surface and bring together into a large mound.",
+      "Knead the dough by hand for 10-15 mins or in a stand mixer fitted with the dough hook for 6-8 mins on high speed until smooth and elastic. Oil a large bowl and drop in the dough. Cover and leave to prove somewhere warm for 1 hr until doubled in size.",
+      "Once the dough has doubled, tip it out onto the work surface and flatten it to remove any air pockets. Sprinkle over the halloumi in an even layer, then the chipotle flakes. Fold the dough over and knead in the cheese and chilli until evenly distributed. Line a large baking tray with baking parchment.",
+      "Tuck the edges of the dough into the centre until you have a neat dough ball. Transfer this to the tray, seam-side down, cover with a clean tea towel and leave to prove for another hour until doubled in size again. You will know the dough is ready when you poke it with your finger – if it springs back slowly and a small indent remains, it’s ready.",
+      "Heat the oven to 240C/220C fan/gas 7 with a roasting tin on the bottom shelf. Uncover the dough and lightly sieve some flour over it. Cut a cross into the top using the tip of a sharp serrated knife.",
+      "Put the loaf on its tray into the roasting tin, then pour some hot water into the tin around the tray to create steam while baking. This will give you a crisp crust. Bake for 20-25 mins until the loaf is golden and sounds hollow when you tap the base.",
+      "Remove from the oven and and leave to cool on a wire rack. Cut into slices and enjoy with lashings of butter."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/65168f18d7350f62260ebf03/Halloumi & chipotle loaf.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c122389",
+        "name": "strong bread flour, plus extra for dusting",
+        "unit": "gram",
+        "amount": 500,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12238a",
+        "name": "unsalted butter, softened",
+        "unit": "gram",
+        "amount": 25,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12238b",
+        "name": "sachet fast-action dried yeast",
+        "unit": "gram",
+        "amount": 7,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12238c",
+        "name": "caster sugar",
+        "unit": "tsp",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12238d",
+        "name": "fine salt",
+        "unit": "tsp",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12238e",
+        "name": "vegetable oil, for proving",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12238f",
+        "name": "halloumi, grated",
+        "unit": "gram",
+        "amount": 250,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122390",
+        "name": "chipotle chilli flakes",
+        "unit": "tbsp",
+        "amount": 2,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/halloumi-chipotle-loaf",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c122449",
+    "category": {
+      "_id": "6519351670937c572c122330",
+      "name": "Sushi",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Sushi/2ff0f023-0c42-4b49-926e-261a0cd2bd9d-sushi.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Sushi burrito",
+    "description": "Mexican meets Japanese in this healthy sushi burrito, using sushi ingredients - tuna, nori, rice, pickled ginger, and wasabi combined to resemble a wrap",
+    "time": 55,
+    "preparation": [
+      "Put the rice in a bowl, cover with cold water and massage to remove the starch. Drain and repeat until the water runs clear. Put the rice in a small saucepan, cover with 2.5cm of water and put on a tight-fitting lid. Simmer on a medium heat for 10 mins, then take off the heat (leaving the lid on) and steam for a further 15 mins. Stir in the vinegar, then cool completely.",
+      "Toss the cucumber and carrot matchsticks in the soy and leave to marinate.",
+      "Lay out a sushi mat and put a nori sheet, shiny-side down, on top of it. Spread a quarter of the rice over the nori, leaving a 1cm border at the top. Mix the wasabi, ginger and lime juice.",
+      "Layer with the avocado, cucumber and carrot, and tuna. Top with the wasabi mix and coriander. Dampen the top border with a little water, fold in both sides of the nori sheet, then use the sushi mat to help roll. Wrap in foil, slice in half and serve."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/65167d24d7350f62260ebed6/Sushi burrito.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c122371",
+        "name": "sushi rice",
+        "unit": "gram",
+        "amount": 150,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122372",
+        "name": "rice wine vinegar",
+        "unit": "tsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122373",
+        "name": "cucumber, cut into matchsticks",
+        "unit": null,
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122374",
+        "name": "carrot, cut into matchsticks",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122375",
+        "name": "soy sauce",
+        "unit": "tbsp",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122376",
+        "name": "nori sheets",
+        "unit": null,
+        "amount": 4,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122377",
+        "name": "wasabi paste",
+        "unit": "tsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122378",
+        "name": "pickled ginger, finely chopped",
+        "unit": "gram",
+        "amount": 50,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122379",
+        "name": "lime, juiced",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12237a",
+        "name": "very ripe avocados, halved, stoned, peeled and sliced",
+        "unit": null,
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12237b",
+        "name": "sushi grade tuna steak, sliced",
+        "unit": "gram",
+        "amount": 200,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12237c",
+        "name": "small pack coriander, leaves picked",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/sushi-burrito",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c122477",
+    "category": {
+      "_id": "6519351670937c572c12232d",
+      "name": "Pasta",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Pasta/8f7f6684-7baa-490f-afc9-734567cec166-pasta.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Spaghetti puttanesca",
+    "description": "Cook up this classic sauce in one pan, then toss with spaghetti for a simple midweek meal. It's budget-friendly too, making it a great meal for the family",
+    "time": 20,
+    "preparation": [
+      "Heat the oil in a non-stick pan over a medium-low heat. Add the onion along with a generous pinch of salt and fry for 10 mins, or until soft. Add the garlic and chilli, if using, and cook for a further minute.",
+      "Stir the tomatoes, anchovies, olives and capers into the onion, bring to a gentle simmer and cook, uncovered, for 15 mins. Season to taste.",
+      "Meanwhile, bring a large pan of salted water to the boil. Cook the spaghetti following pack instructions, then drain and toss with the sauce and parsley."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/6515bc0e9b03bf53304959ae/Spaghetti puttanesca.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c1223bb",
+        "name": "olive oil",
+        "unit": "tbsp",
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223bc",
+        "name": "onion  finely chopped",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223bd",
+        "name": "large garlic cloves, crushed",
+        "unit": null,
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223be",
+        "name": "chilli flakes (optional)",
+        "unit": "tsp",
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223bf",
+        "name": "can chopped tomatoes",
+        "unit": "gram",
+        "amount": 400,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223c0",
+        "name": "anchovy fillets, finely chopped",
+        "unit": null,
+        "amount": 5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223c1",
+        "name": "pitted black olives",
+        "unit": "gram",
+        "amount": 120,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223c2",
+        "name": "capers, drained",
+        "unit": "tbsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223c3",
+        "name": "dried spaghetti",
+        "unit": "gram",
+        "amount": 300,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223c4",
+        "name": "small bunch of parsley, finely chopped",
+        "unit": null,
+        "amount": 0.5,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/spaghetti-puttanesca",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c122479",
+    "category": {
+      "_id": "6519351670937c572c12232c",
+      "name": "Meat",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Meat/6333ff6b-3a02-4b34-91d3-cff67817c800-cat-meat.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Chuck Roast on a Pellet Smoker",
+    "description": "Chuck roast is one of my favorite cuts of beef on the smoker. Absolutely rich and delicious. Shred and serve this Chuck Roast on a Pellet Smoker as is or in sandwiches. Dang, it’s delicious!",
+    "time": 179,
+    "preparation": [
+      "Let the chuck roast sit at room temperature for 35-45 minutes before placing it into your grill or smoker.",
+      "Preheat your pellet grill to 250 degrees F.",
+      "Apply a thin coat of mustard (or hot sauce) to both sides of the chuck roast.",
+      "Combine rub ingredients and apply evenly to the roast.",
+      "Place onto your grill, close the lid, and cook for 2 hours.",
+      "After this time, you will notice a nice bark forming on the meat. You will also notice some dry spots. That means it’s time to spritz with a little liquid.",
+      "Combine 1/4 cup apple cider vinegar with 1/4cup water. Place it into a clean spray bottle and spray (mist or spritz) the meat. Do this every 30 minutes until it is time to wrap.",
+      "Butcher Paper option: Once the meat reaches an internal temperature of 165 degrees F, it's time to wrap it.",
+      "Remove the roast from the grill and place it onto a large piece of pink butcher paper.",
+      "Increase your grill temperature to 300 degrees F.",
+      "Wrap the roast and return to your pellet grill for another 2 hours or until it reaches an internal temperature of 200 degrees F.",
+      "Aluminum foil/steaming option: Heat beef broth before wrapping. Do not add cold or room temperature broth to the chuck roast. The broth should be the same temperature as the roast. The object is to maintain the temperature of the chuck roast, not reduce it. Heat the broth on your stovetop, side burner, or microwave.",
+      "Tear off a large sheet of foil, place roast in the center, and curve the foil’s sides upward. Slowly pour 1/2 cup broth around the edges of the chuck roast. Carefully, finish wrapping and place it back into your pellet grill for another 2 hours or until it reaches doneness.",
+      "Once cooked, remove your chuck roast from the grill. Wrap it in towels and let the meat rest for 1 hour before carving or shredding it.",
+      "If your gathering is several hours away and your chuck roast is done, with thick kitchen towels and place it in a clean cooler to keep warm.",
+      "Before serving, unwrap it, slice or shred, and serve."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/651560b393fc8254aba7d48a/smoked-chuck-roast-sliced-e1661214263459.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c1223cf",
+        "name": "chuck roast",
+        "unit": "aboutThreeToFourPounds",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223d0",
+        "name": "yellow mustard or hot sauce",
+        "unit": "tablespoons",
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223d1",
+        "name": "Pink Butcher paper or aluminum foil",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223d2",
+        "name": "apple cider vinegar for spritzing",
+        "unit": "cup",
+        "amount": 0.25,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223d3",
+        "name": "beef broth for aluminum foil option",
+        "unit": "cup",
+        "amount": 0.5,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.derrickriches.com/chuck-roast-on-a-pellet-smoker/",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c12247b",
+    "category": {
+      "_id": "6519351670937c572c12232b",
+      "name": "Bread and Pastries",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Bread and Pastries/e85b74f0-53f5-4b6d-807b-8718329a48a2-category-bread.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Pampushky",
+    "description": "Make this tear-and-share Ukrainian garlic bread and serve with your favourite soups and stews. It pairs beautifully with our pork rib bortsch recipe",
+    "time": 40,
+    "preparation": [
+      "Butter a 20cm round ovenproof dish. Warm the milk in a small saucepan over a low heat until just steaming, then add the butter and stir until melted. Remove from the heat and leave to cool to room temperature. Mix the flour, yeast, sugar and ½ tsp salt together in a bowl, then pour in the milk. Stir together until a rough dough forms, or bring together with your hands.",
+      "Knead the dough with your hands for around 8 mins, or until it’s smooth and elastic and springs back slightly when gently pressed. (It should not stick to your hands.) Shape into a ball, then transfer to a clean, oiled bowl. Cover and leave to prove in a warm place for 40-45 mins until doubled in size.",
+      "Divide the dough into 12, and roll each piece into a ball. Arrange these in the dish, then leave to prove for another 30 mins until they start to join together. Heat the oven to 200C/ 180C fan/gas6. Bake for 25-30 mins.",
+      "For the topping, combine all the ingredients together, then drizzle this over the pampushky while still hot from the oven. Leave to cool slightly, then serve warm."
+    ],
+    "rating": 3.5,
+    "sumRating": 3.5,
+    "numberOfVotes": 1,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/65169579d7350f62260ebf1d/Pampushky.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c1223a1",
+        "name": "butter, plus extra for the dish",
+        "unit": "gram",
+        "amount": 100,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223a2",
+        "name": "milk",
+        "unit": "ml",
+        "amount": 250,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223a3",
+        "name": "strong white bread flour",
+        "unit": "gram",
+        "amount": 400,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223a4",
+        "name": "fast-action dried yeast",
+        "unit": "gram",
+        "amount": 10,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223a5",
+        "name": "sugar",
+        "unit": "tsp",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223a6",
+        "name": "For the topping",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223a7",
+        "name": "sunflower oil, plus extra for proving",
+        "unit": "tsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223a8",
+        "name": "garlic cloves, finely chopped",
+        "unit": null,
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223a9",
+        "name": "dill sprigs, finely chopped",
+        "unit": null,
+        "amount": 6,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223aa",
+        "name": "vinegar",
+        "unit": "tsp",
+        "amount": 1,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/pampushky",
+    "comments": [
+      {
+        "_id": "65193633649f739b23d6697d",
+        "recipe": "6519351670937c572c12247b",
+        "username": "bcannaway1",
+        "comment": "what a great recpie. very testy :)",
+        "replies": [
+          {
+            "_id": "651936f2c242cf3ea8046f38",
+            "recipe": "6519351670937c572c12247b",
+            "username": "etop0",
+            "comment": "thanks, really appreciate you tried our recipe",
+            "replies": [ ],
+            "__v": 0
+          }
+        ],
+        "__v": 1
+      }
+    ],
+    "__v": 1
+  },
+  {
+    "_id": "6519351670937c572c12247d",
+    "category": {
+      "_id": "6519351670937c572c12232c",
+      "name": "Meat",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Meat/6333ff6b-3a02-4b34-91d3-cff67817c800-cat-meat.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Low Carb Smoked Meatloaf",
+    "description": "Our Pellet Grilled Meatloaf with Bacon is absolutely delicious. It is also low-carb and keto, so if you are on that diet, this is the Meatloaf Recipe for you.",
+    "time": 105,
+    "preparation": [
+      "Combine topping ingredients and set aside.",
+      "In a large bowl, mix together the meatloaf ingredients. Place mixture into a 9 x 9 aluminum tray and form into an evenly shaped loaf.",
+      "Preheat pellet grill to 300 degrees F.",
+      "Slather meatloaf with topping and place into the pellet grill.",
+      "Cook for one and a half hours until the meatloaf reaches an internal temperature of 165 degrees F.",
+      "Remove, and let the meatloaf rest for about 7-10 minutes. Slice and serve."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/6515735fd4feb9512619765f/Depositphotos_37600077_XL-scaled.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c1223db",
+        "name": "ground beef",
+        "unit": "HalfAPound",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223dc",
+        "name": "ground pork",
+        "unit": "halfPound",
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223dd",
+        "name": "almond flour",
+        "unit": "cup",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223de",
+        "name": "egg lightly beaten",
+        "unit": "large",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223df",
+        "name": "finely diced onion",
+        "unit": "cup",
+        "amount": 0.75,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223e0",
+        "name": "shredded sharp cheddar",
+        "unit": "cup",
+        "amount": 0.3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223e1",
+        "name": "cloves garlic minced",
+        "unit": null,
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223e2",
+        "name": "strips bacon finely chopped",
+        "unit": null,
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223e3",
+        "name": "medium jalapeno seeded and finely chopped",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223e4",
+        "name": "salt use less if desired",
+        "unit": "teaspoon",
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223e5",
+        "name": "black pepper",
+        "unit": "teaspoon",
+        "amount": 0.4,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.derrickriches.com/low-carb-smoked-meatloaf/",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c12247f",
+    "category": {
+      "_id": "6519351670937c572c12232d",
+      "name": "Pasta",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Pasta/8f7f6684-7baa-490f-afc9-734567cec166-pasta.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Vegetable pasta bake",
+    "description": "Get the maximum flavour out of all the veg in our pasta bake by pan-frying it first. You can also freeze this for up to three months to enjoy on busier days",
+    "time": 90,
+    "preparation": [
+      "Cook the pasta following pack instructions, reserving a mugful of the pasta water and draining it 2 mins before the stated time. Heat 2 tbsp of the oil in a deep, non-stick pan over a low-medium heat, then tip in the aubergine. Stir well to coat in the oil, frying until softened and deeply golden all over, around 10-15 mins. Remove to a bowl and pour the remaining oil into the pan. Once hot, tip in the onion with a pinch of salt and fry for 5-7 mins until just softened before stirring in the peppers and courgettes. Cook for a further 15-17 mins until lightly browned then add the garlic. Cook for a couple of minutes until fragrant. Stir in the tomato purée and allow it to caramelise for 5 mins. Pour in the cooked aubergine, tomatoes, basil stems and half of the basil leaves. Bring to a gentle simmer. Leave to bubble away for 20-25 mins, then season to taste.",
+      "Heat the oven to 200C/180C fan/gas 6. Mix in the cooked pasta along with a generous splash of the cooking water. Season the mixture well to taste and tip into a baking dish. Combine the cheeses with the panko and a large pinch of black pepper, then scatter this over the pasta. Will keep frozen, well covered, for up to three months. Defrost thoroughly before cooking, or cook from frozen covered in foil for 40 mins, then uncovered for a further 20 mins until piping hot throughout. If cooking straightaway, bake for 15-20 mins until bubbling and golden on top. Scatter over the remaining basil leaves to serve."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/6515be859b03bf53304959dc/Vegetable pasta bake.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c1223ff",
+        "name": "dried penne pasta",
+        "unit": "gram",
+        "amount": 300,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122400",
+        "name": "olive oil",
+        "unit": "tbsp",
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122401",
+        "name": "large aubergine, chopped",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122402",
+        "name": "red onion, finely chopped",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122403",
+        "name": "peppers, deseeded and finely sliced",
+        "unit": null,
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122404",
+        "name": "courgettes, chopped",
+        "unit": null,
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122405",
+        "name": "garlic cloves, crushed",
+        "unit": null,
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122406",
+        "name": "tomato purée",
+        "unit": "tbsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122407",
+        "name": "can cherry tomatoes",
+        "unit": "gram",
+        "amount": 400,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122408",
+        "name": "small bunch of basil, leaves picked and stems finely chopped",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122409",
+        "name": "vegetarian hard cheese, grated",
+        "unit": "gram",
+        "amount": 25,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12240a",
+        "name": "grated mozzarella",
+        "unit": "gram",
+        "amount": 25,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12240b",
+        "name": "mature cheddar, grated",
+        "unit": "gram",
+        "amount": 75,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12240c",
+        "name": "panko breadcrumbs",
+        "unit": "gram",
+        "amount": 20,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/vegetable-pasta-bake",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c122481",
+    "category": {
+      "_id": "6519351670937c572c12232d",
+      "name": "Pasta",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Pasta/8f7f6684-7baa-490f-afc9-734567cec166-pasta.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Cacio e pepe",
+    "description": "Whip up a simple cacio e pepe for a speedy lunch. With four simple ingredients – spaghetti, pepper, parmesan and butter – this is a storecupboard favourite",
+    "time": 10,
+    "preparation": [
+      "Cook the pasta for 2 mins less than pack instructions state, in salted boiling water. Meanwhile, melt the butter in a medium frying pan over a low heat, then add the ground black pepper and toast for a few minutes.",
+      "Drain the pasta, keeping 200ml of the pasta water. Tip the pasta and 100ml of the pasta water into the pan with the butter and pepper. Toss briefly, then scatter over the parmesan evenly, but don’t stir – wait for the cheese to melt for 30 seconds, then once melted, toss everything well, and stir together. This prevents the cheese from clumping or going stringy and makes a smooth, shiny sauce. Add a splash more pasta water if you need to, to loosen the sauce and coat the pasta. Serve immediately with a good grating of black pepper."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/6515c3279b03bf5330495a02/Cacio e pepe.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c12241b",
+        "name": "bucatini or spaghetti",
+        "unit": "gram",
+        "amount": 200,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12241c",
+        "name": "butter",
+        "unit": "gram",
+        "amount": 25,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12241d",
+        "name": "whole black peppercorns, ground,",
+        "unit": "tsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12241e",
+        "name": "or freshly ground black pepper",
+        "unit": "tsp",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12241f",
+        "name": "pecorino or parmesan, finely grated",
+        "unit": "gram",
+        "amount": 50,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/cacio-e-pepe",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c122483",
+    "category": {
+      "_id": "6519351670937c572c12232e",
+      "name": "Dessert",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Dessert/51f06655-a23c-44a6-8ab7-4aef944e7e3c-dessert.jpeg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "chocolate molten cakes",
+    "description": "Bake an impressive dinner party dessert with minimum fuss – these chocolate puddings, also known as chocolate fondant or lava cake, have a lovely gooey centre",
+    "time": 20,
+    "preparation": [
+      "Heat oven to 200C/180C fan/gas 6. Butter 6 dariole moulds or basins well and place on a baking tray.",
+      "Put 100g butter and 100g chopped dark chocolate in a heatproof bowl and set over a pan of hot water (or alternatively put in the microwave and melt in 30 second bursts on a low setting) and stir until smooth. Set aside to cool slightly for 15 mins.",
+      "Using an electric hand whisk, mix in 150g light brown soft sugar, then 3 large eggs, one at a time, followed by ½ tsp vanilla extract and finally 50g plain flour. Divide the mixture among the darioles or basins.",
+      "You can now either put the mixture in the fridge, or freezer until you're ready to bake them. Can be cooked straight from frozen for 16 mins, or bake now for 10-12 mins until the tops are firm to the touch but the middles still feel squidgy.",
+      "Carefully run a knife around the edge of each pudding, then turn out onto serving plates and serve with single cream."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/65165611d7350f62260ebe27/chocolate molten cakes.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c122425",
+        "name": "butter, plus extra to grease",
+        "unit": "gram",
+        "amount": 100,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122426",
+        "name": "dark chocolate, chopped",
+        "unit": "gram",
+        "amount": 100,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122427",
+        "name": "light brown soft sugar",
+        "unit": "gram",
+        "amount": 150,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122428",
+        "name": "large eggs",
+        "unit": null,
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122429",
+        "name": "vanilla extract",
+        "unit": "tsp",
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12242a",
+        "name": "plain flour",
+        "unit": "gram",
+        "amount": 50,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12242b",
+        "name": "single cream, to serve",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/easy-chocolate-molten-cakes",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c122487",
+    "category": {
+      "_id": "6519351670937c572c12232e",
+      "name": "Dessert",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Dessert/51f06655-a23c-44a6-8ab7-4aef944e7e3c-dessert.jpeg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Treacle tart",
+    "description": "Treat family and friends to a comforting treacle tart with crumbly pastry and rich filling. A classic British dessert, serve with ice cream or clotted cream",
+    "time": 75,
+    "preparation": [
+      "Sieve the flour and salt into a large bowl. Add the butter and rub together with your fingers to a fine breadcrumb-like texture (you can also do this part in a food processor). Stir though the icing sugar, then quickly add the egg yolks and 2 tbsp water, mixing swiftly with a cutlery knife to combine. Form into a ball (add another tbsp water if you need to), wrap and chill for 30 mins. Roll out to the thickness of a pound coin, and line a 22cm fluted tart tin with the pastry, leaving an overhang. Return to the fridge for 30 mins.",
+      "Heat the oven to 200C/180C fan/gas 6. Put a baking sheet into the oven to heat up. Line the pastry case with baking parchment and baking beans, then put in the oven on the baking sheet, and bake for 15 mins. Remove the parchment and bake for a further 10 mins or until the pastry is golden brown. Leave the pastry to cool before trimming off the overhanging edges with a small serrated knife.",
+      "Lower the oven temperature to 160C/140C fan/gas 4. Combine the golden syrup, ginger, ginger syrup, lemon, eggs and breadcrumbs in a bowl, briefly whisking everything together until combined. Carefully pour the filling into the pastry case and put in the lower part of the oven to bake for 35-40 mins or until the filling is just set. Remove from the oven and leave to cool down for 20 mins before serving with ice cream or thick clotted cream."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/65165c6dd7350f62260ebe65/Treacle tart.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c12244b",
+        "name": "plain flour",
+        "unit": "gram",
+        "amount": 250,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12244c",
+        "name": "fine salt",
+        "unit": "tsp",
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12244d",
+        "name": "cold unsalted butter, cubed",
+        "unit": "gram",
+        "amount": 140,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12244e",
+        "name": "icing sugar",
+        "unit": "tbsp",
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12244f",
+        "name": "medium egg yolks",
+        "unit": null,
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122450",
+        "name": "cold water",
+        "unit": "tbsp",
+        "amount": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122451",
+        "name": "For the filling",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122452",
+        "name": "golden syrup",
+        "unit": "gram",
+        "amount": 400,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122453",
+        "name": "ball stem ginger in syrup, finely chopped",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122454",
+        "name": "plus of the syrup",
+        "unit": "gram",
+        "amount": 50,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122455",
+        "name": "lemon, zested",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122456",
+        "name": "medium eggs, lightly beaten",
+        "unit": null,
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122457",
+        "name": "fine fresh white breadcrumbs",
+        "unit": "gram",
+        "amount": 100,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/treacle-tart",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c122489",
+    "category": {
+      "_id": "6519351670937c572c122330",
+      "name": "Sushi",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Sushi/2ff0f023-0c42-4b49-926e-261a0cd2bd9d-sushi.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Smoked salmon & avocado sushi",
+    "description": "Fancy making sushi at home? This simple recipe makes 32 healthy little bites, ideal for lunch or served as canapés",
+    "time": 30,
+    "preparation": [
+      "Put the rice in a small pan with 600ml water. Bring to the boil and cook for 10 mins until the water is absorbed and the rice is tender. Stir through the vinegar and sugar, cover and cool.",
+      "Skin, stone and slice the avocado. Put in a bowl and squeeze over the lemon juice, turning the avocado to ensure the pieces are covered.",
+      "Divide the rice between the nori sheets and spread it out evenly, leaving a 1cm border at the top and bottom. Lay the salmon over the rice, followed by the chives and finally position the avocado across the centre.",
+      "Fold the bottom edge of the seaweed over the filling, then roll it up firmly. Dampen the top border with a little water to help it seal the roll. Repeat to make 4 rolls. At this stage, the rolls can be wrapped individually in cling film and chilled until ready to serve.",
+      "Using a serrated knife, cut each roll into 8 rounds. Serve with sweet soy sauce for dipping."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/651669f0d7350f62260ebea8/Smoked salmon & avocado sushi.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c122465",
+        "name": "sushi rice",
+        "unit": "gram",
+        "amount": 300,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122466",
+        "name": "rice or white wine vinegar",
+        "unit": "tbsp",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122467",
+        "name": "caster sugar",
+        "unit": "tsp",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122468",
+        "name": "large avocado",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122469",
+        "name": "juice lemon",
+        "unit": null,
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12246a",
+        "name": "sheets nori seaweed",
+        "unit": null,
+        "amount": 4,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12246b",
+        "name": "large slices smoked salmon",
+        "unit": null,
+        "amount": 4,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12246c",
+        "name": "bunch chives",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12246d",
+        "name": "sweet soy sauce (kecap manis), to serve",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/smoked-salmon-avocado-sushi",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c12248b",
+    "category": {
+      "_id": "6519351670937c572c12232e",
+      "name": "Dessert",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Dessert/51f06655-a23c-44a6-8ab7-4aef944e7e3c-dessert.jpeg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "No-bake PB&J cheesecake squares",
+    "description": "Try these peanut butter and jam cheesecake squares. We’ve chosen a fruit topping, but you could opt for chocolate – turning it into a giant peanut butter cup.",
+    "time": 25,
+    "preparation": [
+      "Line an 18-20cm square baking tin with a strip of baking parchment, leaving the ends overhanging – this will help you lift the cheesecake out later. Put the butter in a large heatproof bowl that has a wide lip and set over a smaller heatproof bowl filled with boiling water from the kettle. Leave to stand for a minute, then stir until completely smooth. Stir in the crushed biscuits, then spoon the mixture into the prepared tin, pressing it down using the back of a spoon.",
+      "Beat the soft cheese, icing sugar, peanut butter and vanilla together in a bowl until well combined. Whisk the double cream in a separate bowl until it’s just holding its shape. Gently fold this into the peanut butter mixture, then spread over the biscuit base and smooth the surface using the back of a spoon. Chill for at least 1 hr to set. Will keep chilled for up to one day.",
+      "Meanwhile, tip the jelly cubes into a heatproof bowl and pour over 100ml boiling water. Stir to dissolve, then add the raspberries and sugar and stir, crushing the berries with the spoon. Push through a sieve into a jug, then pour this over the set cheesecake. Chill for at least 4hrs. Will keep chilled for up to two days. Run a knife around the sides, then use the overhanging parchment to lift the cheesecake onto a board. Cut into squares."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/65165a2bd7350f62260ebe45/No-bake PB&J cheesecake squares.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c122433",
+        "name": "butter",
+        "unit": "gram",
+        "amount": 100,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122434",
+        "name": "digestive biscuits, crushed into fine crumbs",
+        "unit": "gram",
+        "amount": 250,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122435",
+        "name": "full-fat soft cheese",
+        "unit": "gram",
+        "amount": 500,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122436",
+        "name": "icing sugar",
+        "unit": "gram",
+        "amount": 100,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122437",
+        "name": "crunchy peanut butter",
+        "unit": "gram",
+        "amount": 237,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122438",
+        "name": "vanilla extract",
+        "unit": "tsp",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c122439",
+        "name": "double cream",
+        "unit": "ml",
+        "amount": 300,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12243a",
+        "name": "for the topping",
+        "unit": null,
+        "amount": null,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12243b",
+        "name": "raspberry jelly, chopped into smaller chunks",
+        "unit": "cub",
+        "amount": 4,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12243c",
+        "name": "frozen raspberries, defrosted",
+        "unit": "gram",
+        "amount": 200,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c12243d",
+        "name": "caster sugar",
+        "unit": "tbsp",
+        "amount": 1,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.bbcgoodfood.com/recipes/no-bake-pbj-cheesecake-squares",
+    "comments": [ ],
+    "__v": 0
+  },
+  {
+    "_id": "6519351670937c572c122485",
+    "category": {
+      "_id": "6519351670937c572c12232c",
+      "name": "Meat",
+      "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/admin/categories/Meat/6333ff6b-3a02-4b34-91d3-cff67817c800-cat-meat.jpg",
+      "__v": 0
+    },
+    "user": {
+      "_id": "6519351470937c572c122269",
+      "firstName": "Ebeneser",
+      "lastName": "Top",
+      "email": "etop0@smugmug.com",
+      "username": "etop0",
+      "role": "business"
+    },
+    "name": "Rotisserie Roast Beef",
+    "description": "Using the rotisserie for this recipe not only gives you flavorful beef roast, but it also helps to keep the meat moist and tender. Eye of round is naturally a tough cut of meat, but the rotation of the rotisserie helps baste the roast as it cooks. I recommend using a meat slicer to cut this, and you’ll have the best roast beef sandwich you’ve ever tried.",
+    "time": 120,
+    "preparation": [
+      "Preheat grill for medium-high heat. We will be cooking this roast indirectly, so set up your grill accordingly.",
+      "Combine the salt, black pepper, onion powder, and granulated garlic in a small bowl. Season roast liberally with mixture.",
+      "You’ll need to create a pilot hole through the center (lengthwise) of the roast. This will help guide the rotisserie rod through. Once you’ve made the pilot hole and have run the rod through the roast, secure the forks.",
+      "Place the rod onto the rotisserie until on the grill and set the aluminum pan underneath. Fill the pan with hot water, close the lid, and cook the roast for 1 1/2 hours. Check ever so often to make sure the drip pan hasn't gone dry. Add more water if needed. The liquid makes a great jus or gravy once the roast is done.",
+      "I recommend cooking until the meat reaches an internal temperature of 140 degrees F., between medium and medium-rare. Watch for shrinkage as the meat cooks, and adjust the forks if needed.",
+      "Once the roast is cooked, remove from heat with rod and forks still intact. Heat resistant gloves work really well for this job. Place onto a clean wooden cutting board, loosely tent with aluminum foil, and let the meat rest for 20 minutes.",
+      "Carefully loosen forks and remove the rod. Cut into thin slices and use however you wish. Serve topped with gravy and mashed potatoes, or use in sandwiches, salads, and wraps."
+    ],
+    "rating": 0,
+    "sumRating": 0,
+    "numberOfVotes": 0,
+    "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/recipes/6515b2f69b03bf5330495970/Depositphotos_38573129_xl-2015-scaled-e1635108698685.png",
+    "ingredients": [
+      {
+        "_id": "6519351670937c572c1223f1",
+        "name": "eye of round roast about",
+        "unit": null,
+        "amount": 4.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223f2",
+        "name": "aluminum drip pan",
+        "unit": null,
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223f3",
+        "name": "hot water",
+        "unit": "cup",
+        "amount": 0.5,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223f4",
+        "name": "coarse salt",
+        "unit": "tablespoons",
+        "amount": 2,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223f5",
+        "name": "black pepper",
+        "unit": "teaspoon",
+        "amount": 1,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223f6",
+        "name": "onion powder",
+        "unit": "teaspoons",
+        "amount": 0.25,
+        "__v": 0
+      },
+      {
+        "_id": "6519351670937c572c1223f7",
+        "name": "granulated garlic",
+        "unit": "teaspoon",
+        "amount": 0.25,
+        "__v": 0
+      }
+    ],
+    "orderLink": "https://www.derrickriches.com/rotisserie-roast-beef/",
+    "comments": [ ],
+    "__v": 0
+  }
+]

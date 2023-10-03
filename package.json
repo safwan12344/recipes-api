@@ -10,7 +10,7 @@
     "start": "node dist/index.js",
     "dev": "nodemon --exec babel-node ./src/index.js",
     "lint": "eslint src/**/*.{js,ts}",
-    "lint:fix": "eslint src/**/*.{js,ts} --fix",
+    "lint:fix": "eslint  data/**/*.{js,ts} src/**/*.{js,ts} --fix",
     "seed": "nodemon --exec babel-node ./src/seed.js"
   },
   "author": "",

@@ -15,8 +15,18 @@ import {
 import validate from "../middlerwares/validate"
 import recipeSchema from "../validations/recipe"
 import { objectId } from "../middlerwares/object-id"
+import Recipe from "../models/recipe"
 
 const router = express.Router()
+
+router.get("/test", async (req, res) => {
+  const recepies = await Recipe.find()
+    .populate("category")
+    .populate("ingredients")
+    .populate("user")
+    .populate("comments")
+  res.json(recepies)
+})
 
 router.post(
   "/:id/comments/:commentId",
