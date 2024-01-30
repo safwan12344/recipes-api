@@ -13,6 +13,7 @@ import categoryRoutes from "./routes/category"
 import recipesRoutes from "./routes/recipes"
 import mongoose from "./utils/mongoose"
 import booksRoute from "./routes/books"
+import activityRoutes from "./routes/activities"
 
 mongoose
   .connect(process.env.DATABASE_URL)
@@ -38,6 +39,7 @@ app.use("/auth", authRoutes)
 app.use("/categories", categoryRoutes)
 app.use("/recipes", recipesRoutes)
 app.use("/books", booksRoute)
+app.use("/activities", activityRoutes)
 
 // eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {
@@ -45,8 +47,19 @@ app.use((err, req, res, next) => {
   if (err.code === 11000) {
     statusCode = 400
   }
+  if (err.errors && (err.errors["value"] || err.errors["params"])) {
+    delete err.errors["value"]
+    delete err.errors["params"]
+  }
 
-  res.status(statusCode).json({ ...err, message: err.message })
+  let message = err.message
+  if (err.errors && Object.keys(err.errors).length) {
+    message = err.errors.message
+  }
+  res.status(statusCode).json({
+    ...err,
+    message: message,
+  })
 })
 
 app.listen(port, () => {
