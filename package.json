@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "recipes-server",
   "main": "./src/index.js",
+  "engines": {
+    "node": "18.15.0"
+  },
   "scripts": {
     "gen:db": "nodemon --exec babel-node ./data/seed.js",
     "build": "npm run clean && babel ./src --out-dir dist --copy-files",
