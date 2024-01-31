@@ -9,6 +9,7 @@ import Recipe from "../src/models/recipe"
 import Comment from "../src/models/comment"
 import Ingredient from "../src/models/ingredient"
 import Book from "../src/models/book"
+import Activity from "../src/models/activities"
 const bcrypt = require("bcrypt")
 
 dotenv.config()
@@ -47,6 +48,7 @@ const main = async () => {
   await Ingredient.deleteMany()
   await Recipe.deleteMany()
   await Book.deleteMany()
+  await Activity.deleteMany()
 
   const promises = users.map(async (item) => {
     const user = {

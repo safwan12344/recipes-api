@@ -21,6 +21,10 @@ const UserSchema = new Schema({
     enum: ["user", "business"],
     default: "user",
   },
+  canReciveEmail: {
+    type: Boolean,
+    default: false,
+  },
 })
 
 UserSchema.methods.toJSON = function () {
