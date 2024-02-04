@@ -57,7 +57,7 @@ async function sendActivitiesEmail() {
                 We will be happy to see you
                 
                 Event Details:
-                Date: ${activity.date}
+                Date: ${activity.dateOnly}
                 Start: ${activity.startTime}
                 End: ${activity.endTime}
                 Location: ${activity.location}
