@@ -5,11 +5,14 @@ import Category from "../src/models/category"
 const users = require("./users.json")
 import recipes from "./recipes.json"
 import categories from "./categories.json"
+import books from "./books.json"
+import activities from "./activities.json"
 import Recipe from "../src/models/recipe"
 import Comment from "../src/models/comment"
 import Ingredient from "../src/models/ingredient"
 import Book from "../src/models/book"
 import Activity from "../src/models/activities"
+import { add } from "date-fns"
 const bcrypt = require("bcrypt")
 
 dotenv.config()
@@ -22,6 +25,15 @@ const generateUserPassword = async (password, genSalt = 10) => {
   const salt = await bcrypt.genSalt(genSalt)
   const hashPassword = await bcrypt.hash(password, salt)
   return hashPassword
+}
+
+function getDates() {
+  const days = []
+  const today = new Date()
+  for (let index = 1; index <= 14; index++) {
+    days.push(add(today, { days: index }))
+  }
+  return days
 }
 
 const createReplies = async (comment, recipeId) => {
@@ -50,7 +62,7 @@ const main = async () => {
   await Book.deleteMany()
   await Activity.deleteMany()
 
-  const promises = users.map(async (item) => {
+  const userPromises = users.map(async (item) => {
     const user = {
       username: item.username,
       email: item.email,
@@ -62,7 +74,7 @@ const main = async () => {
 
     return await User.create({ ...user, password: hashPassword })
   })
-  await Promise.all(promises)
+  await Promise.all(userPromises)
 
   const promisesCategory = categories.map(async (category) => {
     return await Category.create({
@@ -115,6 +127,35 @@ const main = async () => {
   })
 
   await Promise.all(recipiesPromise)
+
+  const booksPromise = books.map(async (book) => {
+    const user = await User.findOne({ username: "etop0" })
+    return Book.create({
+      user: user._id,
+      name: book.name,
+      orderLink: book.orderLink,
+      imageURL: book.imageURL,
+    })
+  })
+
+  await Promise.all(booksPromise)
+
+  const days = getDates()
+  const activitiesPromise = activities.map(async (activity) => {
+    const user = await User.findOne({ username: "etop0" })
+    return Activity.create({
+      user: user._id,
+      name: activity.name,
+      date: days[Math.floor(Math.random() * days.length)],
+      startTime: activity.startTime,
+      endTime: activity.endTime,
+      location: activity.location,
+      maxOfParticipants: activity.maxOfParticipants,
+      imageURL: activity.imageURL,
+    })
+  })
+
+  await Promise.all(activitiesPromise)
 }
 
 main().then(() => {

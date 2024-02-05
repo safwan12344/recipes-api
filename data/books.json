@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "65bf815cf4c1b0b326914ee3"
+  },
+  "name": "Every Grain of Rice: Simple Chinese Home Cooking",
+  "orderLink": "https://www.barnesandnoble.com/w/every-grain-of-rice-fuchsia-dunlop/1110785286?ean=9780393089042",
+  "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/books/65bf815cf4c1b0b326914ee3/every_grain_of_rice_book.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bf8220f4c1b0b326914ee8"
+  },
+  "name": "My Paris Kitchen: Recipes and Stories [A Cookbook]",
+  "orderLink": "https://www.barnesandnoble.com/w/my-paris-kitchen-david-lebovitz/1116056010?ean=9781607742678",
+  "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/books/65bf8220f4c1b0b326914ee8/My_paris_kitchen.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bf82adf4c1b0b326914eef"
+  },
+  "name": "French Cooking Academy: 100 Essential Recipes for the Home Cook",
+  "orderLink": "https://www.barnesandnoble.com/w/french-cooking-academy-stephane-nguyen/1142184914?ean=9781645679790",
+  "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/books/65bf82adf4c1b0b326914eef/french cooking academy.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bf830cf4c1b0b326914ef6"
+  },
+  "name": "Let's Eat: 101 Recipes to Fill Your Heart & Home",
+  "orderLink": "https://www.barnesandnoble.com/w/lets-eat-dan-pelosi/1143152235?ean=9781454946397",
+  "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/books/65bf830cf4c1b0b326914ef6/lets_eat.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bf8378f4c1b0b326914f02"
+  },
+  "name": "The Pasta Queen: A Just Gorgeous Cookbook: 100+ Recipes and Stories",
+  "orderLink": "https://www.barnesandnoble.com/w/the-pasta-queen-nadia-caterina-munno/1140976219?ean=9781982195151",
+  "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/books/65bf8378f4c1b0b326914f02/the_pasta_queen.png",
+  "__v": 0
+}]
