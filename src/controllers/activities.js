@@ -35,6 +35,11 @@ export const getWeeklyActivities = async (req, res, next) => {
           ],
         },
       },
+      {
+        $sort: {
+          date: 1,
+        },
+      },
     ])
 
     return res.status(200).json(activities)
@@ -83,6 +88,7 @@ export const createActivity = async (req, res, next) => {
       startTime: req.body.startTime,
       endTime: req.body.endTime,
       user: req.user._id,
+      details: req.body.details,
     })
     //upload image o aws
     if (req.files?.imageFile) {
@@ -98,6 +104,21 @@ export const createActivity = async (req, res, next) => {
   }
 }
 
+const getMappedActivity = (activity) => {
+  return {
+    _id: activity._id,
+    name: activity.name,
+    date: activity.date,
+    startTime: activity.startTime,
+    endTime: activity.endTime,
+    location: activity.location,
+    participants: activity.participants.map((p) => p.username),
+    maxOfParticipants: activity.maxOfParticipants,
+    imageURL: activity.imageURL,
+    details: activity.details,
+  }
+}
+
 export const getActivity = async (req, res, next) => {
   try {
     const id = req.params.id
@@ -105,7 +126,7 @@ export const getActivity = async (req, res, next) => {
     if (!activity) {
       return res.status(404).json({ message: "activity is not found" })
     }
-    return res.status(200).json(activity)
+    return res.status(200).json(getMappedActivity(activity))
   } catch (error) {
     next(error)
   }
@@ -121,7 +142,7 @@ export const toggleParticipent = async (req, res, next) => {
     const participentId = req.user._id
     const participents = []
     for (let i = 0; i < activity.participants.length; i++) {
-      participents[i] = String(activity.participants[i])
+      participents[i] = String(activity.participants[i]._id)
     }
     const uniqueParticipents = new Set(participents)
     if (uniqueParticipents.delete(String(participentId))) {

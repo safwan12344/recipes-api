@@ -27,7 +27,7 @@ router.get("/", getAllActivities)
 router.get("/weekly", getWeeklyActivities)
 router.get("/monthly", getMonthlyActivities)
 
-router.get("/:id", authenticate, objectId("id"), getActivity)
+router.get("/:id", objectId(["id"]), getActivity)
 router.get(
   "/:id/toggle-participent",
   authenticate,

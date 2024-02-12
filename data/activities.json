@@ -15,6 +15,7 @@
   "participants": [],
   "maxOfParticipants": 30,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bf8a8a69198f015304497a/Wine Tasting and Gourmet Pairing Event.png",
+  "details": "Embark on a sensory journey with our Wine Tasting and Gourmet Pairing Event, where exquisite wines meet delectable gourmet bites. Elevate your palate as you sample an array of fine wines expertly paired with artisanal dishes, curated to delight every taste bud. Join us for an unforgettable evening of sophistication and culinary delight.",
   "__v": 0
 },
 {
@@ -34,6 +35,7 @@
   "participants": [],
   "maxOfParticipants": 40,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bf8bfe69198f015304497e/A Celebration of Local Flavors.png",
+  "details": "Celebrate the abundance of local flavors at our Farm-to-Table Harvest Feast. Immerse yourself in a culinary experience showcasing the freshest seasonal produce and locally-sourced ingredients. Join us as we honor the journey from farm to plate in a delightful celebration of community and sustainability.",
   "__v": 0
 },
 {
@@ -53,6 +55,7 @@
   "participants": [],
   "maxOfParticipants": 15,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bf8d4669198f0153044982/Creative Cooking Workshop.png",
+  "details": "Unlock the secrets of global cuisine at our Creative Cooking Workshop: Mastering Global Recipes. Dive into a hands-on culinary adventure where you'll learn the techniques and flavors of diverse cultures. From mastering traditional dishes to infusing your creations with a modern twist, join us for an enriching experience that will ignite your passion for cooking across continents.",
   "__v": 0
 },
 {
@@ -72,6 +75,7 @@
   "participants": [],
   "maxOfParticipants": 20,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bf8e5669198f0153044986/Farmer's Market Tour & Cooking Class.png",
+  "details": "Experience the essence of each season with our \"Flavors of the Season\" event, featuring a Farmer's Market Tour & Cooking Class. Explore the vibrant stalls of the local market, handpicking the freshest seasonal ingredients. Then, under the guidance of expert chefs, learn to craft exquisite dishes that capture the essence of the season's bounty. Join us for a flavorful journey celebrating the best of local produce and culinary creativity.",
   "__v": 0
 },
 {
@@ -91,6 +95,7 @@
   "participants": [],
   "maxOfParticipants": 25,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bfa45269198f015304498d/Street Food Safari.png",
+  "details": "Embark on a tantalizing journey through the bustling streets of our Culinary Adventure: Street Food Safari. Explore diverse flavors and vibrant cultures as we navigate through local markets and hidden gems. From savory bites to sweet treats, indulge in an array of street foods while immersing yourself in the rich tapestry of global cuisine. Join us for an unforgettable gastronomic expedition where every bite tells a story.",
   "__v": 0
 },
 {
@@ -110,6 +115,7 @@
   "participants": [],
   "maxOfParticipants": 25,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bfa78369198f0153044991/Farm-to-Table Picnic.png",
+  "details": "Celebrate the beauty of nature and the bounty of the land with our Farm-to-Table Picnic: Harvesting Memories in Nature. Set amidst picturesque surroundings, gather with friends and family for a leisurely day filled with freshly harvested delights. Indulge in a sumptuous spread of farm-fresh produce, artisanal cheeses, and locally sourced delights, all while soaking in the beauty of the outdoors. Join us for a memorable picnic experience that nourishes both body and soul.",
   "__v": 0
 },
 {
@@ -129,6 +135,7 @@
   "participants": [],
   "maxOfParticipants": 20,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bfa8b369198f0153044995/Artistic Food Presentation Workshop.png",
+  "details": "Unleash your creativity and elevate your culinary skills at our Culinary Canvas: Artistic Food Presentation Workshop. Discover the artistry behind plating as you learn techniques to transform dishes into visually stunning masterpieces. From color contrasts to intricate garnishes, delve into the world of food aesthetics under the guidance of skilled chefs. Join us for an interactive workshop where you'll learn to turn every plate into a work of art that's as delightful to the eyes as it is to the palate.",
   "__v": 0
 },
 {
@@ -148,6 +155,7 @@
   "participants": [],
   "maxOfParticipants": 15,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bfaa8a69198f0153044999/Chocolate Tasting & Pairing Experience.png",
+  "details": "Indulge your senses in a decadent journey at Sensory Delights: Chocolate Tasting & Pairing Experience. Explore the rich flavors and textures of premium chocolates from around the world, expertly paired with complimentary beverages. From velvety dark chocolates to creamy milk varieties, discover the nuances of each exquisite bite in this luxurious tasting event. Join us for an unforgettable experience that will tantalize your taste buds and leave you craving for more.",
   "__v": 0
 },
 {
@@ -167,6 +175,7 @@
   "participants": [],
   "maxOfParticipants": 25,
   "imageURL": "https://safwan-recipes.s3.eu-central-1.amazonaws.com/etop0/activities/65bfabc069198f015304499d/Culinary Fusion Global Cooking Challenge.png",
+  "details": "Embark on a culinary adventure unlike any other at our Culinary Fusion: Global Cooking Challenge. Join fellow food enthusiasts in a thrilling competition where creativity knows no bounds. From mastering traditional recipes to innovating bold fusion dishes, test your skills as you journey through diverse cuisines from around the world. Whether you're a seasoned chef or a home cook, come showcase your culinary prowess and be part of this exciting gastronomic experience.",
   "__v": 0
 }
 ]

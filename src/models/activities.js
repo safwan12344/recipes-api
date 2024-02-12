@@ -12,6 +12,7 @@ const activitiesSchema = new mongoose.Schema({
     { type: mongoose.Types.ObjectId, ref: "users", autopopulate: true },
   ],
   maxOfParticipants: { type: Number, default: 0 },
+  details: { type: String, require: true },
 })
 
 const Activity = mongoose.model("activities", activitiesSchema)

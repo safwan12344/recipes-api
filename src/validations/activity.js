@@ -168,4 +168,5 @@ export const activitySchema = yup.object({
     }),
   location: yup.string().required(),
   maxOfParticipants: yup.number().min(0).required(),
+  details: yup.string().required(),
 })

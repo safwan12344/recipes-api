@@ -30,7 +30,7 @@ const generateUserPassword = async (password, genSalt = 10) => {
 function getDates() {
   const days = []
   const today = new Date()
-  for (let index = 1; index <= 14; index++) {
+  for (let index = 1; index <= 7; index++) {
     days.push(add(today, { days: index }))
   }
   return days
@@ -152,6 +152,7 @@ const main = async () => {
       location: activity.location,
       maxOfParticipants: activity.maxOfParticipants,
       imageURL: activity.imageURL,
+      details: activity.details,
     })
   })
 
