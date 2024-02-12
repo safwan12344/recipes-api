@@ -24,6 +24,11 @@ export const getWeeklyActivities = async (req, res, next) => {
           $and: [
             {
               date: {
+                $gte: today,
+              },
+            },
+            {
+              date: {
                 $gte: firstDayWeekly,
               },
             },
