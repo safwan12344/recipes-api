@@ -160,6 +160,6 @@ const main = async () => {
 }
 
 main().then(() => {
-  console.log("Database Genreated...")
+  console.log("Database Genreated....")
   process.exit()
 })
