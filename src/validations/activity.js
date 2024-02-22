@@ -59,7 +59,7 @@ function getTime(date, startTime, endTime) {
   return { startTimeDate, endTimeDate, startTimePlus30Date, activityDate }
 }
 
-export const activitySchema = yup.object({
+const base = {
   name: yup.string().required(),
   imageFile: yup
     .mixed()
@@ -68,7 +68,7 @@ export const activitySchema = yup.object({
       message: "image URL should be of type PNG",
       test: (file) => {
         if (!file) {
-          return true
+          return false
         }
         const ext = file.name.split(".")[1]
         const isValid = ["png"].includes(ext)
@@ -79,7 +79,7 @@ export const activitySchema = yup.object({
       message: `File too big, can't exceed 3MB`,
       test: (file) => {
         if (!file) {
-          return true
+          return false
         }
         const sizeLimit = 3
         const totalSizeInMB = file.size / 1000000
@@ -169,4 +169,34 @@ export const activitySchema = yup.object({
   location: yup.string().required(),
   maxOfParticipants: yup.number().min(0).required(),
   details: yup.string().required(),
+}
+export const activitySchema = yup.object(base)
+export const updateActivitySchema = yup.object({
+  ...base,
+  imageFile: yup
+    .mixed()
+    .nullable()
+    .test({
+      message: "image URL should be of type PNG",
+      test: (file) => {
+        if (!file) {
+          return true
+        }
+        const ext = file.name.split(".")[1]
+        const isValid = ["png"].includes(ext)
+        return isValid
+      },
+    })
+    .test({
+      message: `File too big, can't exceed 3MB`,
+      test: (file) => {
+        if (!file) {
+          return true
+        }
+        const sizeLimit = 3
+        const totalSizeInMB = file.size / 1000000
+        const isValid = totalSizeInMB <= sizeLimit
+        return isValid
+      },
+    }),
 })

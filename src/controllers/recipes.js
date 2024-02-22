@@ -188,7 +188,9 @@ export const deleteRecipe = async (req, res, next) => {
       )
     }
 
+    const imageURL = recipe.imageURL
     await recipe.deleteOne()
+    await deleteFile(imageURL)
     res.status(200).json({ message: "recipe deleted" })
   } catch (error) {
     next(createError(500, error.message))

@@ -1,7 +1,8 @@
 import { startOfWeek, endOfWeek, startOfMonth, endOfMonth } from "date-fns"
 import Activity from "../models/activities"
-import { uploadFile } from "../utils/aws"
+import { deleteFile, uploadFile } from "../utils/aws"
 import { sendEmail } from "../utils/email"
+import { createError } from "../utils/create-error"
 
 export const getAllActivities = async (req, res, next) => {
   try {
@@ -136,6 +137,72 @@ export const getActivity = async (req, res, next) => {
     next(error)
   }
 }
+
+export const editActivity = async (req, res, next) => {
+  try {
+    const id = req.params.id
+    const activity = await Activity.findOne({ _id: id, user: req.user.id })
+    if (!activity) {
+      return res.status(404).json({ message: "activity is not found" })
+    }
+    activity.name = req.body.name
+    activity.date = new Date(req.body.date)
+    activity.startTime = req.body.startTime
+    activity.endTime = req.body.endTime
+    activity.location = req.body.location
+    activity.maxOfParticipants = req.body.maxOfParticipants
+    activity.details = req.body.details
+
+    if (req.files?.imageFile) {
+      const file = req.files.imageFile
+      const key = `${req.user.username}/activities/${activity._id}/${file.name}`
+      const imageURL = await uploadFile(req, "imageFile", key)
+      const oldImageURL = activity.imageURL
+      await deleteFile(oldImageURL)
+      activity.imageURL = imageURL
+    }
+
+    const updatedActivity = await activity.save()
+    res.status(200).json(updatedActivity)
+  } catch (error) {
+    next(createError(500, "unkown error please try later"))
+  }
+}
+
+export const deleteActivity = async (req, res, next) => {
+  try {
+    const id = req.params.id
+    const activity = await Activity.findOne({ _id: id, user: req.user.id })
+
+    const mailOptions = {}
+    activity.participants.forEach(async (participant) => {
+      if (participant.canReciveEmail) {
+        mailOptions.from = process.env.GMAIL_USER
+        mailOptions.to = participant.email
+        mailOptions.subject = activity.name
+        mailOptions.text = `
+            ${activity.name} - Event cancelled
+            
+            Event Details:
+            Date: ${activity.dateOnly}
+            Start: ${activity.startTime}
+            End: ${activity.endTime}
+            Location: ${activity.location}
+
+            The user hase decided to delete the event
+            `
+        await sendEmail(mailOptions)
+      }
+    })
+    const imageURL = activity.imageURL
+    await activity.deleteOne()
+    await deleteFile(imageURL)
+    res.status(204).json({ message: "activity deleted" })
+  } catch (error) {
+    next(createError(500, "unknown error please try later"))
+  }
+}
+
 //add or delete participent
 export const toggleParticipent = async (req, res, next) => {
   try {
@@ -178,6 +245,17 @@ export const toggleParticipent = async (req, res, next) => {
       })
       res.status(200).json({ message: "user has subscribed to event" })
     }
+  } catch (error) {
+    next(error)
+  }
+}
+
+export const getBusinessActivities = async (req, res, next) => {
+  try {
+    const id = req.user._id
+    let activities = await Activity.find({ user: id })
+    activities = activities.map((acitivty) => getMappedActivity(acitivty))
+    res.status(200).json(activities)
   } catch (error) {
     next(error)
   }
