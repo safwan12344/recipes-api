@@ -3,7 +3,7 @@ import bodyParser from "body-parser"
 import dotenv from "dotenv"
 import cors from "cors"
 import fileUpload from "express-fileupload"
-
+//בשביל לטעון את הקובץ env
 dotenv.config()
 
 // routes
@@ -14,7 +14,7 @@ import recipesRoutes from "./routes/recipes"
 import mongoose from "./utils/mongoose"
 import booksRoute from "./routes/books"
 import activityRoutes from "./routes/activities"
-
+//coniction to DB
 mongoose
   .connect(process.env.DATABASE_URL)
   .then(() => console.log("DB Connected!"))
@@ -42,6 +42,7 @@ app.use("/books", booksRoute)
 app.use("/activities", activityRoutes)
 
 // eslint-disable-next-line no-unused-vars
+//נועד לטפל בשגיאות בשרת
 app.use((err, req, res, next) => {
   let statusCode = err.code || 500
   if (err.code === 11000) {

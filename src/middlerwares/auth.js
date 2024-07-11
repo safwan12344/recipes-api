@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken"
 import User from "../models/user"
 import { createError } from "../utils/create-error"
-
+// (req)פונקצית ביניים הבודקת אם המשתמש מחובר במידה וכן המשתמש נשמר באוביקט הבקשה
 export const authenticate = function (req, res, next) {
   const authHeader = req.headers["authorization"]
   const token = authHeader && authHeader.split(" ")[1]

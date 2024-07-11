@@ -7,6 +7,7 @@ import { createError } from "../utils/create-error"
 const createCategory = async (req, res, next) => {
   const data = req.body
   const uid = uuidv4()
+  //מפתח לשמירת התמונה באמזון
   const key = `admin/categories/${data.name}/${uid}-${req.files.file.name}`
 
   try {

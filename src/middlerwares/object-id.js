@@ -1,6 +1,9 @@
 import { createError } from "../utils/create-error"
 import { isObjectId } from "../utils/mongoose"
 
+// פןנקצית ביניים שבודקת שהפרמטר שנשלח בכתות הוא אובייקט
+//ID
+// של מונגו
 export const objectId = (parmas) => {
   return (req, res, next) => {
     const errors = []

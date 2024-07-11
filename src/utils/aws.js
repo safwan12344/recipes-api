@@ -17,7 +17,7 @@ export const getAWSClient = () => {
 
   return new S3Client(s3Config)
 }
-
+//העלאת תמונה לאמזון הפרמטרים שצריך לקבל זה אובייקט הבקשה , שם השדה של התמונה , המפתח שאיפה אנחנו רוצים לשמור את התמונה
 export const uploadFile = async (req, fieldName, key) => {
   const file = req.files[fieldName]
 
